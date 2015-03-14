@@ -1,0 +1,21 @@
+# view AndroidManifest.xml #generated:59
+-keep class com.google.android.gms.ads.AdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.idroid.lib.support.GCMBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.imusik.mp3.downloader.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.imusik.mp3.downloader.PhoneReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.imusik.mp3.downloader.PlayerService { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.ironsource.mobilcore.InstallationTracker { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.ironsource.mobilcore.MobileCoreReport { <init>(...); }
+

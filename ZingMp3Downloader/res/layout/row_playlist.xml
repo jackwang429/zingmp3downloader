@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_text" 
+    >
+
+    <TextView
+        android:id="@+id/tv_playlist_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Playlist của Thùy Chi"
+        android:textColor="#FFF"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/img_btn_playlist_delete"
+        android:padding="10dp"
+        android:textSize="18dp"
+        />
+
+    <ImageView
+        android:id="@+id/img_btn_playlist_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:src="@drawable/ic_delete"
+        android:layout_centerHorizontal="true" 
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>

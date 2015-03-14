@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NhacCuaTui Downloader</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="search">Tìm kiếm...</string>
+    <string name="more">Thêm</string>
+    <string name="downloaded">Đã tải</string>
+    <string name="select_playlist">Chọn Playlist để chơi</string>
+    <string name="add_song_to_playlist">Thêm vào Playlist</string>
+    <string name="create_playlist">Tạo Playlist mới...</string>
+    <string name="delete_song">Xóa bài hát này?</string>
+    <string name="delete_playlist">Xóa playlist này?</string>
+    <string name="exit_application">Thoát ứng dụng?</string>
+    <string name="enter_keyword">Hãy nhập từ khóa</string>
+    
+    <string name="extra_subject">From NhacCuaTui Downloader with love :x</string>
+    <string name="extra_title">From NhacCuaTui Downloader with love :x</string>
+    <string name="share_chooser_title">Chia sẻ từ NhacCuaTui Downloader</string>
+    <string name="create_playlist_with_other_name">Hãy tạo playlist với tên khác</string>
+    
+    <string name="share">Chia sẻ</string>
+    <string name="delete">Xóa</string>
+    <string name="cancel_alarm">Bỏ hẹn giờ</string>
+    
+    <string name="search_artist_on">Bật tìm kiếm theo tên Nghệ sĩ</string>
+    <string name="search_artist_off">Tắt tìm kiếm theo tên Nghệ sĩ</string>
+    
+    <string name="lyric_not_found">Chưa có lyric cho bài hát này</string>
+    <string name="remove_song_from_playlist">Xóa khỏi playlist</string>
+    <string name="loading_please_wait">Đang load, vui lòng chờ...</string>
+    <string name="error_occurs_while_downloading">Bài hát này có bản quyền</string>
+    <string name="no_internet_connection">Không có kết nối mạng</string>
+    <string name="end_of_list">Thử tìm kiếm lại sau</string>
+	<string name="set_as_ringtone">Đặt làm nhạc chuông</string>
+    
+</resources>

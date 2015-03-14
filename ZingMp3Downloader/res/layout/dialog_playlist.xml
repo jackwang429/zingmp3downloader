@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="320dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_btn"
+    android:layout_gravity="center"
+    >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Playlist"
+        android:drawableLeft="@drawable/ic_playlist"
+        android:gravity="center_vertical"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:id="@+id/tv_dialog_title"
+        android:textStyle="bold"
+        />
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/tv_dialog_title"
+        android:layout_above="@+id/ll_add_playlist"
+        >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ll_playlist_container"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+             >
+             
+        </LinearLayout>
+    </ScrollView>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/ll_add_playlist" 
+        android:gravity="center_vertical"
+        >
+        
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="+"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:background="@drawable/bg_btn"
+            android:gravity="center"
+            android:id="@+id/tv_btn_add_playlist"
+            />
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_btn"
+            android:textColor="#FFF"
+            android:hint="@string/create_playlist"
+            android:id="@+id/et_add_playlist"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            />
+    </LinearLayout>
+    
+    
+
+</RelativeLayout>

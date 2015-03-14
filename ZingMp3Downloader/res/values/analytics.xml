@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Vietnamese  -->
+  <!-- <string name="ga_trackingId">UA-42356714-1</string> -->
+  
+  <!-- English  -->
+  <!-- <string name="ga_trackingId">UA-42356714-2</string> -->
+  
+  <!-- Mp3 Downloader Pro  -->
+  <string name="ga_trackingId">UA-44034147-3</string>
+  
+  <!-- NCT  -->
+<!--   <string name="ga_trackingId">UA-42356714-5</string> -->  
+
+  <!-- Mp3 Downloader  -->
+  <!-- <string name="ga_trackingId">UA-42356714-8</string> -->
+  
+  <bool name="ga_autoActivityTracking">true</bool>
+  <bool name="ga_reportUncaughtExceptions">true</bool>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="tag_id" />
+    <item type="id" name="tag_xmlid" />
+    <item type="id" name="tag_zingsonginfo"></item>
+    <item type="id" name="tag_playlist_name" />
+    <item type="id" name="tag_dialog"></item>
+    <item type="id" name="tag_row"></item>
+    <item type="id" name="tag_downloaded_tab"></item>
+    
+</resources>

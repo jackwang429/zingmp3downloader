@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iMusik</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="search">Search...</string>
+    <string name="more">More</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="select_playlist">Select Playlist to listen</string>
+    <string name="add_song_to_playlist">Add to Playlist</string>
+    <string name="create_playlist">Create new Playlist...</string>
+    <string name="delete_song">Delete this song</string>
+    <string name="delete_playlist">Delete this playlist</string>
+    <string name="exit_application">Exit application?</string>
+    <string name="enter_keyword">Please enter keywords</string>
+    
+    <string name="extra_subject">Share From Zing Downloader</string>
+    <string name="extra_title">Share From Zing Downloader</string>
+    <string name="share_chooser_title">Share from Zing Downloader</string>
+    <string name="create_playlist_with_other_name">Select other playlist name</string>    
+
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="cancel_alarm">Cancel</string>
+    
+    <string name="search_artist_on">Turn on Search by Artist Name</string>
+    <string name="search_artist_off">Turn off Search by Artist Name</string>
+    
+    <string name="lyric_not_found">Lyric not found</string>
+    <string name="remove_song_from_playlist">Remove from playlist</string>
+    <string name="loading_please_wait">Loading, please wait...</string>
+    <string name="error_occurs_while_downloading">Copyright Song. Can not download</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="end_of_list">NO MORE songs or ERROR occurs. Please try again</string>    
+	<string name="set_as_ringtone">Set as Ringtone</string>
+    
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/bg_btn"
+    >
+    
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lyrics"
+        android:id="@+id/tv_show_lyrics"
+        android:drawableLeft="@drawable/ic_lyric"
+        android:gravity="center_vertical"
+        android:textSize="16dp"
+        android:background="@drawable/bg_text"
+        
+        />    
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_song_to_playlist"
+        android:id="@+id/tv_add_song_to_playlist"
+        android:drawableLeft="@drawable/ic_add_song"
+        android:gravity="center_vertical"
+        android:textSize="16dp"
+        android:background="@drawable/bg_text"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remove_song_from_playlist"
+        android:id="@+id/tv_remove_song_from_playlist"
+        android:drawableLeft="@drawable/ic_remove_song"
+        android:gravity="center_vertical"
+        android:textSize="16dp"
+        android:background="@drawable/bg_text"
+        android:visibility="gone"
+        />    
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/share"
+        android:id="@+id/tv_share_song"
+        android:drawableLeft="@drawable/ic_share"
+        android:gravity="center_vertical"
+        android:textSize="16dp"
+        android:background="@drawable/bg_text"
+        />    
+        
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/set_as_ringtone"
+        android:id="@+id/tv_set_ringtone"
+        android:drawableLeft="@drawable/ic_menu_set_as_ringtone"
+        android:gravity="center_vertical"
+        android:textSize="16dp"
+        android:background="@drawable/bg_text"
+        />    
+        
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:id="@+id/tv_delete_song"
+        android:drawableLeft="@drawable/ic_delete_song"
+        android:gravity="center_vertical"
+        android:textSize="16dp"
+        android:background="@drawable/bg_text"
+        />
+
+</LinearLayout>

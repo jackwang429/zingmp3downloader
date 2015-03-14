@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center_vertical"
+        android:id="@+id/ll_scanning"
+        android:padding="3dp"
+        >
+        
+        <ProgressBar 
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scanning SDCard..."
+            android:padding="5dp"
+            android:textColor="#FFF"
+            />
+    </LinearLayout>     
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <TextView
+            android:id="@+id/tv_downloaded_songs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_more"
+            android:drawableLeft="@drawable/ic_downloaded"
+            android:gravity="center"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:text="@string/downloaded"
+            android:textColor="#FFF" />
+
+        <FrameLayout
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#02acd8" />
+
+        <TextView
+            android:id="@+id/tv_playlist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_more"
+            android:drawableLeft="@drawable/ic_playlist"
+            android:gravity="center"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:text="Playlist"
+            android:textColor="#FFF" />
+
+        <FrameLayout
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#02acd8" />
+
+        <TextView
+            android:id="@+id/tv_loadmore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_more"
+            android:drawableLeft="@drawable/ic_search_more"
+            android:gravity="center"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:text="@string/more"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp" >
+
+        <ImageView
+            android:id="@+id/img_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_cover_blank_super_tiny" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/img_now_playing"
+            android:layout_toRightOf="@+id/img_cover"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_nowplaying"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="" />
+
+            <SeekBar
+                android:id="@+id/seekbar_playing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:max="100"
+                android:progressDrawable="@drawable/custom_seekbar"
+                android:thumb="@drawable/ic_thumb"
+                android:thumbOffset="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" 
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_now_playing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/bg_now_playing_play" />
+    </RelativeLayout>
+
+</LinearLayout>

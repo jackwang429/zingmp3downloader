@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/btn_01" 
+    >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="15 minutes"
+        android:textSize="18dp"
+        android:padding="5dp"
+        android:background="@drawable/bg_text"
+        android:id="@+id/tv_time_15"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="20 minutes"
+        android:textSize="18dp"
+        android:padding="5dp"
+        android:background="@drawable/bg_text"
+        android:id="@+id/tv_time_20"
+        />    
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="25 minutes"
+        android:textSize="18dp"
+        android:padding="5dp"
+        android:background="@drawable/bg_text"
+        android:id="@+id/tv_time_25"
+        />    
+        
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="30 minutes"
+        android:textSize="18dp"
+        android:padding="5dp"
+        android:background="@drawable/bg_text"
+        android:id="@+id/tv_time_30"
+        />    
+        
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="45 minutes"
+        android:textSize="18dp"
+        android:padding="5dp"
+        android:background="@drawable/bg_text"
+        android:id="@+id/tv_time_45"
+        />    
+        
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="60 minutes"
+        android:textSize="18dp"
+        android:padding="5dp"
+        android:background="@drawable/bg_text"
+        android:id="@+id/tv_time_60"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel_alarm"
+        android:textSize="18dp"
+        android:padding="5dp"
+        android:background="@drawable/bg_text"
+        android:id="@+id/tv_time_00"
+        />    
+
+</LinearLayout>
